@@ -10,7 +10,7 @@ This is a MVC architecture based application where controller returns a page wit
 Checkout the repo and move to the directory
 
 ```
-git clone https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/java-maven-sonar-argocd-helm-k8s/sprint-boot-app
+git clone https://github.com/Elixir1998/java-maven-sonar-argocd-helm-k8s/spring-boot-app/README.md
 cd java-maven-sonar-argocd-helm-k8s/sprint-boot-app
 ```
 
@@ -37,11 +37,11 @@ java -jar target/spring-boot-web.jar
 Build the Docker Image
 
 ```
-docker build -t ultimate-cicd-pipeline:v1 .
+docker build -t ultimate-CICD:v1 .
 ```
 
 ```
-docker run -d -p 8010:8080 -t ultimate-cicd-pipeline:v1
+docker run -d -p 8010:8010 -t ultimate-CICD:v1
 ```
 
 Hurray !! Access the application on `http://<ip-address>:8010`
@@ -54,11 +54,11 @@ Hurray !! Access the application on `http://<ip-address>:8010`
 ```
 apt install unzip
 adduser sonarqube
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.4.87374.zip
 unzip *
-chmod -R 755 /home/sonarqube/sonarqube-9.4.0.54424
-chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
-cd sonarqube-9.4.0.54424/bin/linux-x86-64/
+chmod -R 755 /home/sonarqube/sonarqube-9.9.4.87374
+chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.9.4.87374
+cd sonarqube-9.9.4.87374/bin/linux-x86-64/
 ./sonar.sh start
 ```
 
