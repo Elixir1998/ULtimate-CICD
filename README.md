@@ -5,10 +5,10 @@ Below are the steps to create this project.
 
 Prerequisites :
 Java application code hosted on a Git repository \
-Jenkins server
-Kubernetes cluster
-Helm package manager
-Argo CD
+Jenkins server \
+Kubernetes cluster \
+Helm package manager \
+Argo CD \
 Steps:
 
 1. Install the necessary Jenkins plugins:
