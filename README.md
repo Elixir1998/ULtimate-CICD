@@ -4,8 +4,8 @@
 Below are the steps to create this project.
 
 Prerequisites :
-Java application code hosted on a Git repository /
-Jenkins server  /
+Java application code hosted on a Git repository \
+Jenkins server
 Kubernetes cluster
 Helm package manager
 Argo CD
